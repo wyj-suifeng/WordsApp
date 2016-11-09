@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.w.wordsapp.WordDetailFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top"
+        android:background="@drawable/bg"
+        >
+
+
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:typeface="serif"
+            android:textColor="#43000e"
+            android:textSize="50sp"
+            android:id="@+id/word"
+            android:textStyle="bold"/>
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="monospace"
+            android:textSize="20sp"
+            android:textColor="#848787"
+            android:id="@+id/wordmeaning"/>
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="sans"
+            android:textColor="#013a46"
+            android:textSize="20sp"
+            android:id="@+id/wordsample"/>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
